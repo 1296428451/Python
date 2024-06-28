@@ -3,9 +3,9 @@ from flask import Flask, request, render_template, send_from_directory
 import datetime
 import os
 
-APP_ID = '88347601'
-API_KEY = 'GJMK8TbxElXKaaYtUC3peANl'
-SECRET_KEY = 'gAKrl3aHkqYvRuCcy0WhaLWG2YjzL6Ds'
+APP_ID = 'XXX'
+API_KEY = 'XXX'
+SECRET_KEY = 'XXX'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
